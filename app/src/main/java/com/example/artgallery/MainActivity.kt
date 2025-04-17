@@ -65,10 +65,12 @@ fun ArtScreen(modifier: Modifier = Modifier) {
         bottomBar = {
             Buttons(
                 onPrevious = {
-                    currentIndex = if (currentIndex == 0) listArtData.lastIndex else currentIndex - 1
+                    currentIndex =
+                        if (currentIndex == 0) listArtData.lastIndex else currentIndex - 1
                 },
                 onNext = {
-                    currentIndex = if (currentIndex == listArtData.lastIndex) 0 else currentIndex + 1
+                    currentIndex =
+                        if (currentIndex == listArtData.lastIndex) 0 else currentIndex + 1
                 }
             )
         }
@@ -118,7 +120,7 @@ fun ArtInformation(
         )
         Spacer(modifier = Modifier.height(8.dp))
         Text(
-            text = stringResource(authorName) + " (1498)",
+            text = stringResource(authorName) + " ($year)",
         )
     }
 }
@@ -128,7 +130,7 @@ fun Buttons(
     onPrevious: () -> Unit,
     onNext: () -> Unit,
 
-) {
+    ) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
