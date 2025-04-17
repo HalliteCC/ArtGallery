@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ArtGallery</string>
+
+    //Art Names
+    <string name="mona_lisa">Mona Lisa</string>
+    <string name="a_ultima_ceia">A Última Ceia</string>
+    <string name="a_noite_estrelada">A Noite Estrelada</string>
+    <string name="criacao_adao">Criação de Adão</string>
+    <string name="guernica">Guernica</string>
+
+    /Author Names
+    <string name="leonardo_da_vinci">Leonardo Da Vinci</string>
+    <string name="pablo_picasso">Pablo Picasso</string>
+    <string name="michelangelo_buonarroti">Michelangelo Buonarroti</string>
+    <string name="vincent_van_gogh">Vincent van Gogh</string>
+</resources>
